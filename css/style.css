@@ -2,6 +2,10 @@ body {
 	background-color: #e5e7e9;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	height: 68px;
 	width: auto;
@@ -34,9 +38,15 @@ body {
 
 }
 
+.top-menu li:hover {
+	color: #fff000;
+
+}
+
 .middle-top-block {
 	background-color: #5d5440;
 	color: white;
+	height: 335px;
 }
 
 .forum-block {
