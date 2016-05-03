@@ -1,5 +1,5 @@
 body {
-	background-color: #e5e7e9;
+	background-color: white;
 }
 
 a {
@@ -11,6 +11,10 @@ a {
 	width: auto;
 	background-color: #252525;
 	overflow: hidden;
+}
+
+.header a {
+	color: white;
 }
 
 .header-container, .main-container {
@@ -38,24 +42,50 @@ a {
 
 }
 
-.top-menu li:hover {
+.top-menu a:hover {
 	color: #fff000;
 
 }
 
 .middle-top-block {
-	background-color: #5d5440;
+	background-color: #555147;
 	color: white;
 	height: 335px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.pic-block {
+	float: left;
 }
 
 .forum-block {
 	float: right;
+	margin-right: 10px;
+}
+
+.mid-title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+
 }
 
 .mid-text {
 	width: 360px;
 }
+
+.email-submit {
+	margin-top: 25px;
+	background-color: #dadada;
+	overflow: hidden;
+}
+
+.es-label {
+	float: left;
+}
+
+
 
 
 
