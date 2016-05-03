@@ -9,7 +9,7 @@ body {
 	overflow: hidden;
 }
 
-.header-container {
+.header-container, .main-container {
 	width: 960px;
 	margin: auto;
 }
@@ -36,6 +36,15 @@ body {
 
 .middle-top-block {
 	background-color: #5d5440;
+	color: white;
+}
+
+.forum-block {
+	float: right;
+}
+
+.mid-text {
+	width: 360px;
 }
 
 
