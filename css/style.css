@@ -2,6 +2,12 @@ body {
 	background-color: white;
 }
 
+div {
+	font-family: "Open Sans", "Myriad Pro", sans-serif;
+	
+
+}
+
 a {
 	text-decoration: none;
 }
@@ -11,6 +17,8 @@ a {
 	width: auto;
 	background-color: #252525;
 	overflow: hidden;
+	/*position: fixed;*/
+	
 }
 
 .header a {
@@ -43,7 +51,7 @@ a {
 }
 
 .top-menu a:hover {
-	color: #fff000;
+	color: #fff870;
 
 }
 
@@ -76,14 +84,56 @@ a {
 }
 
 .email-submit {
+	position: absolute;
+
+}
+
+.email-submit-block {
 	margin-top: 25px;
 	background-color: #dadada;
 	overflow: hidden;
+	padding: 5px;
+	height: 62px;
+	border-radius: 2px;
+	position: relative;
+	z-index: 1;
+	width: 950px;
 }
 
 .es-label {
 	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
 }
+
+.shadow {
+	margin-left: -72px;
+	margin-top: -39px;
+	position: relative;
+	z-index: -25;
+}
+
+.middle-block {
+	margin-top: 150px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.middle-1st-block, .middle-2nd-block, .middle-3rd-block {
+	float: left;
+	width: 300px;
+}
+
+.micro-header {
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+
+.img-block {
+	margin-top: 70px;
+}
+
+
 
 
 
