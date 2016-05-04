@@ -109,13 +109,43 @@ a {
 	border-radius: 2px;
 	position: relative;
 	z-index: 1;
-	width: 950px;
+	width: 962px;
 }
 
 .es-label {
 	float: left;
 	margin-top: 22px;
 	margin-left: 10px;
+}
+
+
+
+.submit-button {
+	float: right;
+	width: 62px;
+	height: 42px;
+	background-color: #529dcb;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.submit-button button {
+	margin-top: 15px;
+	margin-left: 8px;
+	font-size: 15px;
+	color: white;
+}
+
+.input-text {
+	float: right;
+	background-color: white;
+	border-radius: 3px;
+	margin-right: 5px;
+	margin-top: 10px;
+	width: 248px;
+	height: 42px;
+
 }
 
 .shadow {
@@ -168,6 +198,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 
 .small-button:hover {
 	text-shadow:  0 0 3px rgba(180,180,180,1) , 0 0 5px rgba(180,180,180,1) ;
+}
+
+.small-img {
+	float: left;
+}
+
+.sub-text {
+	clear: both;
 }
 
 .micro-header {
