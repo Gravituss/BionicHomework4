@@ -173,10 +173,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 .micro-header {
 	font-weight: bold;
 	margin-bottom: 9px;
+	text-transform: capitalize;
 }
 
 .img-block {
 	margin-top: 70px;
+}
+
+.total-footer-container {
+
+	background-color: #151515;
+	margin: auto;
+	width: 960px;
+}
+
+.footer-container {
+	overflow: hidden;
+}
+
+.footer-micro-header {
+	color: white;
+	text-transform: capitalize;
+	border-bottom: 3px solid black;
+}
+
+.thin-line {
+	width: 200px;
+	color: red;
+}
+
+.about, .links, .contact-us {
+	width: 300px;
+	float: left;
+	height: 300px;
+	margin-right: 5px;
+
+
+}
+
+.the-ultimate-footer {
+	color: white;
+	background-color: black;
+	height: 25px;
+	font-size: 14px;
 }
 
 
