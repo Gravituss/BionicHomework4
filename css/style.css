@@ -184,11 +184,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 
 	background-color: #151515;
 	margin: auto;
-	width: 960px;
+	width: auto;
 }
 
 .footer-container {
 	overflow: hidden;
+	width: 962px;
+	margin: auto;
+	padding-top: 5px;
 }
 
 .footer-micro-header {
@@ -218,7 +221,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 	font-size: 14px;
 }
 
-
+.copyright {
+	width: 962px;
+	margin: auto;
+}
 
 
 
