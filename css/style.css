@@ -56,16 +56,34 @@ a {
 
 }
 
-.middle-top-block {
+
+
+.middle-top-bg {
 	background-color: #555147;
+	width: 100vw;
+	position: relative;
+	top: 0px;
+	left: 1px;
+
+
+}
+
+.middle-top-block {
+	
 	color: white;
-	height: 335px;
-	padding-top: 20px;
+	height: 385px;
+	padding-top: 37px;
 	overflow: hidden;
+	position: absolute;
+	top: 100;
+	left: 100;
+	
 }
 
 .pic-block {
 	float: left;
+	position: relative;
+	z-index: 10;
 }
 
 .forum-block {
