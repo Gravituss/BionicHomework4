@@ -60,12 +60,20 @@ a {
 
 .middle-top-bg {
 	background-color: #555147;
+	background-image: url("../img/background.jpg");
+	background-size: 100% 500px;
 	width: 100vw;
+	height: 500px;
 	position: relative;
 	top: 0px;
-	left: 1px;
+	left: 0px;
+	
 
 
+}
+
+.middle-top-bg img {
+	margin-left: 9000px;
 }
 
 .middle-top-block {
