@@ -9,6 +9,10 @@ div {
 a {
 	text-decoration: none;
 }
+a:visited {
+	color: white;
+}
+
 
 .header {
 	height: 68px;
@@ -72,17 +76,18 @@ a {
 .large-button-see-more {
 	color: #fff;
 	background-color: #509cca;
-	width: 70px;
-	height: 35px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 187px;
+	height: 54px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
 	position: relative;
-	top: 100px;
+	top: 83px;
 	left: 76px;
 	border-radius: 3px;
 	text-transform: capitalize;
+	font-size: 23px;
 
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#60a9d4+0,5ba5d1+23,4895c5+77,4391c1+100 */
 background: #60a9d4; /* Old browsers */
@@ -92,6 +97,10 @@ background: linear-gradient(to bottom,  #60a9d4 0%,#5ba5d1 23%,#4895c5 77%,#4391
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9d4', endColorstr='#4391c1',GradientType=0 ); /* IE6-9 */
 
 
+}
+
+.large-button-see-more:hover {
+	color: #111010;
 }
 
 .middle-top-bg div {
@@ -301,6 +310,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 	margin-bottom: 15px;
 }
 
+.some-menu a:hover {
+	color: #73bef5;
+}
+
 .footer-button {
 	color: #fff;
 	background-color: #509cca;
@@ -320,6 +333,10 @@ background: -webkit-linear-gradient(top,  #1d8fd5 0%,#1b82cc 28%,#1661b4 75%,#14
 background: linear-gradient(to bottom,  #1d8fd5 0%,#1b82cc 28%,#1661b4 75%,#1455ac 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d8fd5', endColorstr='#1455ac',GradientType=0 ); /* IE6-9 */
 
+}
+
+.footer-button:hover {
+	color: #111010;
 }
 
 .about .footer-button {
