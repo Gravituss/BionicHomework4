@@ -259,6 +259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 .footer-micro-header {
 	text-transform: capitalize;
 	border-bottom: 2px solid black;
+	width: 269px;
 }
 
 .just-text {
@@ -275,11 +276,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 }
 
 .about, .links, .contact-us {
-	width: 300px;
+	width: 269px;
 	float: left;
 	height: 300px;
-	margin-right: 5px;
+	margin-right: 50px;
+	margin-top: 22px;
+	padding-bottom: 5px;
 }
+
+.some-menu-links {
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+.some-menu li {
+	margin-bottom: 15px;
+}
+
+.footer-button {
+	color: #fff;
+	background-color: #509cca;
+	width: 70px;
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	border-radius: 3px;
+	text-transform: capitalize;
+	
+
+}
+
+
 
 .the-ultimate-footer {
 	color: white;
