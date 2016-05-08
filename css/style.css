@@ -323,7 +323,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d8fd5', end
 }
 
 .about .footer-button {
+	position: relative;
+	top: 27px;
+}
 
+.contact-us .footer-button {
+	position: relative;
+	top: 27px;
 }
 
 
