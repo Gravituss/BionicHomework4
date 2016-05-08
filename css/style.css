@@ -16,6 +16,11 @@ a {
 	background-color: #252525;
 	overflow: hidden;
 	background-image: url("../img/top-bgc.jpg");
+
+	-webkit-box-shadow: 1px -1px 15px 0px rgba(54,54,54,1);
+	-moz-box-shadow: 1px -1px 15px 0px rgba(54,54,54,1);
+	box-shadow: 1px -1px 15px 0px rgba(54,54,54,1);
+
 }
 
 .header a {
@@ -64,7 +69,7 @@ a {
 	right: 0px;
 }
 
-.large-button {
+.large-button-see-more {
 	color: #fff;
 	background-color: #509cca;
 	width: 70px;
@@ -77,6 +82,7 @@ a {
 	top: 100px;
 	left: 76px;
 	border-radius: 3px;
+	text-transform: capitalize;
 
 }
 
@@ -172,7 +178,7 @@ a {
 
 .shadow {
 	margin-left: -72px;
-	margin-top: -39px;
+	margin-top: -41px;
 	position: relative;
 	z-index: -25;
 }
