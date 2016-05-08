@@ -242,6 +242,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 
 .total-footer-container {
 	background-color: #151515;
+	background-image: url("../img/bottom-bgc.png");
+	color: white;
 	margin: auto;
 	width: auto;
 }
@@ -249,15 +251,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 .footer-container {
 	overflow: hidden;
 	width: 962px;
+	height: 352px;
 	margin: auto;
 	padding-top: 5px;
 }
 
 .footer-micro-header {
-	color: white;
 	text-transform: capitalize;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 }
+
+.just-text {
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 19px;
+}
+
+
 
 .thin-line {
 	width: 200px;
@@ -274,13 +284,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 .the-ultimate-footer {
 	color: white;
 	background-color: black;
-	height: 25px;
+	border-top: 1px solid #4e4949;
+	height: 28px;
 	font-size: 14px;
 }
 
 .copyright {
 	width: 962px;
 	margin: auto;
+	padding-top: 10px;
+	font-size: 13px;
 }
 
 
