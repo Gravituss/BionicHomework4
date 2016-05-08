@@ -4,8 +4,6 @@ body {
 
 div {
 	font-family: "Open Sans", "Myriad Pro", sans-serif;
-	
-
 }
 
 a {
@@ -17,9 +15,7 @@ a {
 	width: auto;
 	background-color: #252525;
 	overflow: hidden;
-	/*position: fixed;*/
 	background-image: url("../img/top-bgc.jpg");
-
 }
 
 .header a {
@@ -37,23 +33,19 @@ a {
 }
 
 .top-menu {
-	
 	color: white;
 	float: right;
 	margin-right: 10px;
-
 }
 
 .top-menu li {
 	display: inline-block;
 	margin-left: 20px;
 	margin-top: 22px;
-
 }
 
 .top-menu a:hover {
 	color: #fff870;
-
 }
 
 .container {
@@ -64,15 +56,27 @@ a {
 	background-color: #555147;
 	background-image: url("../img/background.jpg");
 	background-size: 100% 500px;
-	/*width: 100vw;*/
 	width: auto;
 	height: 500px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	
+}
 
+.main-see-more-button {
+	color: #fff;
+	background-color: #509cca;
+	width: 70px;
+	height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	top: 100px;
+	left: 76px;
+	border-radius: 3px;
 
 }
 
@@ -81,16 +85,12 @@ a {
 }
 
 .middle-top-block {
-	
 	color: white;
 	height: 385px;
 	width: 960px;
 	margin: auto;
 	padding-top: 37px;
 	overflow: hidden;
-	
-
-	
 }
 
 .pic-block {
@@ -110,18 +110,11 @@ a {
 	margin-top: 30px;
 	margin-bottom: 25px;
 	font-size: 23px;
-
-
-
-
 }
 
 .mid-title span {
 	text-shadow: 0px 2px 2px #222222;
-
 }
-
-
 
 .mid-text {
 	width: 360px;
@@ -130,7 +123,6 @@ a {
 
 .email-submit {
 	position: absolute;
-
 }
 
 .email-submit-block {
@@ -150,8 +142,6 @@ a {
 	margin-top: 22px;
 	margin-left: 10px;
 }
-
-
 
 .submit-button {
 	float: right;
@@ -178,7 +168,6 @@ a {
 	margin-top: 10px;
 	width: 248px;
 	height: 42px;
-
 }
 
 .shadow {
@@ -204,10 +193,6 @@ a {
 .small-button {
 	color: black;
 	text-transform: capitalize;
-
-
-
-
 	width: 69px;
 	height: 20px;
 	border-radius: 4px;
@@ -224,8 +209,6 @@ background: -moz-linear-gradient(top,  rgba(246,248,249,1) 23%, rgba(229,235,238
 background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 23%,rgba(229,235,238,1) 79%,rgba(215,222,227,1) 99%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(246,248,249,1) 23%,rgba(229,235,238,1) 79%,rgba(215,222,227,1) 99%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
-
-
 
 }
 
@@ -252,7 +235,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 }
 
 .total-footer-container {
-
 	background-color: #151515;
 	margin: auto;
 	width: auto;
@@ -281,8 +263,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 	float: left;
 	height: 300px;
 	margin-right: 5px;
-
-
 }
 
 .the-ultimate-footer {
