@@ -310,6 +310,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', end
 	margin-bottom: 15px;
 }
 
+a.lili-a {
+	color: white;
+	text-decoration: none;
+	
+}
+
 .some-menu a:hover {
 	color: #73bef5;
 }
