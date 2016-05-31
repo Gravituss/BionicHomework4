@@ -176,18 +176,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9d4', end
 	background-color: white;
 	border-radius: 3px;
 	margin-right: 5px;
-	margin-top: 10px;
-	width: 248px;
-	height: 42px;	
 	position: relative;
-	right: 60px;
+	right: 68px;
+	top: 6px;
 }
 
 #e::-webkit-search-cancel-button {
     display: none;
 }
 
-#email-submit {
+#email-submit { /* --------------- button -----------*/
+	transition: all 0.3s ease;
 	color: white;
 	float: right;
 	width: 62px;
@@ -204,9 +203,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9d4', end
 }
 
 #email-submit:hover {
+	transition: all 0.3s ease;
 	background-color: #4688b0;
 	cursor: pointer;
 	
+}
+
+.email-form input {
+	padding-left: 15px;
+	padding-top: 14px;
+	padding-bottom: 10px;
+	font-size: 15px;
+
+}
+
+.email-form input::-webkit-input-placeholder {
+	position: relative;
+	top: 0;
+	color: #373737;
 }
 
 
