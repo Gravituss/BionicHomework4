@@ -152,6 +152,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9d4', end
 	position: absolute;
 }
 
+.es-label {
+	float: left;
+	margin-top: 22px;
+	margin-left: 10px;
+}
+
 .email-submit-block {
 	margin-top: 25px;
 	background-color: #dadada;
@@ -163,39 +169,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9d4', end
 	z-index: 1;
 	width: 962px;
 }
+/*------------------------------------------------------------*/
 
-.es-label {
-	float: left;
-	margin-top: 22px;
-	margin-left: 10px;
-}
-
-.submit-button {
-	float: right;
-	width: 62px;
-	height: 42px;
-	background-color: #529dcb;
-	border-radius: 2px;
-	margin-top: 10px;
-	margin-right: 10px;
-}
-
-.submit-button button {
-	margin-top: 16px;
-	margin-left: 9px;
-	font-size: 14px;
-	color: white;
-}
-
-.input-text {
+.email-form {
 	float: right;
 	background-color: white;
 	border-radius: 3px;
 	margin-right: 5px;
 	margin-top: 10px;
 	width: 248px;
-	height: 42px;
+	height: 42px;	
+	position: relative;
+	right: 60px;
 }
+
+#e::-webkit-search-cancel-button {
+    display: none;
+}
+
+#email-submit {
+	color: white;
+	float: right;
+	width: 62px;
+	height: 42px;
+	background-color: #529dcb;
+	border-radius: 2px;
+	margin-top: 0;
+	margin-right: 10px;
+	font-size: 14px;	
+	text-align: center;
+	position: relative;
+	left: 75px;
+	top: 0;
+}
+
+#email-submit:hover {
+	background-color: #4688b0;
+	cursor: pointer;
+	
+}
+
+
+
+/* -----------------------------------------------------------------------------------*/
+
+
 
 .shadow {
 	margin-left: -72px;
